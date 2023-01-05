@@ -8,11 +8,11 @@ const logo = document.querySelector(".logo");
 const home = document.querySelector("#home");
 
 home.onclick = () => {
-    window.location.href = "http://127.0.0.1:5500/";
+    window.location.href = "https://youtube-clone-1dc686.netlify.app";
 }
 
 logo.onclick = () => {
-    window.location.href = "http://127.0.0.1:5500/";
+    window.location.href = "https://youtube-clone-1dc686.netlify.app";
 }
 // const api_key = "AIzaSyDu4UEyxC_H_uB3fBT0zmLXhF-vwQ5Vb9o";
 
