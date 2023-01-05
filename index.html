@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Youtube Clone</title>
+    <link rel="icon" type="image/x-icon" href="/images/Youtube-Logo.png" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,1,0"
+    />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="toggle-btn">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <img src="images/logo.PNG" class="logo" alt="" />
+      <div class="search-box">
+        <input type="text" class="search-bar" id="searchVal" placeholder="search" />
+        <button class="search-btn">
+          <img src="images/search.PNG" alt="" />
+        </button>
+      </div>
+      <div class="user-options">
+        <img src="images/video.PNG" class="icon" alt="" />
+        <img src="images/grid.PNG" class="icon" alt="" />
+        <img src="images/bell.PNG" class="icon" alt="" />
+        <div class="user-dp">
+          <i class="material-symbols-outlined">
+            person_filled
+          </i>
+        </div>
+      </div>
+    </nav>
+
+    <!-- sidebar -->
+    <div class="side-bar">
+      <a href="#" class="links active" id="home"><img src="images/home.PNG" alt="" />home</a>
+      <a href="#" class="links"><img src="images/explore.PNG" alt="" />explore</a>
+      <a href="#" class="links" id="subscription"
+        ><img src="images/subscription.PNG" alt="" />subscription</a
+      >
+      <hr class="seperator" />
+      <a href="#" class="links"><img src="images/library.PNG" alt="" />Channels</a>
+      <a href="#" class="links"><img src="images/history.PNG" alt="" />history</a>
+      <a href="#" class="links"
+        ><img src="images/your-video.PNG" alt="" />your video</a
+      >
+      <a href="#" class="links"
+        ><img src="images/watch-later.PNG" alt="" />watch later</a
+      >
+      <a href="#" class="links"
+        ><img src="images/liked video.PNG" alt="" />like video</a
+      >
+      <hr class="seperator" />
+    </div>
+
+    <!-- filters -->
+    <div class="filters">
+      <button class="filter-options active">all</button>
+      <button class="filter-options">CSS</button>
+      <button class="filter-options">web development</button>
+      <button class="filter-options">python</button>
+      <button class="filter-options">entertainment</button>
+      <button class="filter-options">marvel</button>
+      <button class="filter-options">javascript</button>
+      <button class="filter-options">artificial intelligence</button>
+      <button class="filter-options">machine learning</button>
+      <button class="filter-options">trending</button>
+    </div>
+
+    <!-- videos -->
+    <div class="video-container">
+      
+    </div>
+    <div class="search-container">
+
+    </div>
+    <div class="video-player">
+    </div>
+<div class="channel-information">
+
+</div>
+    <script src="https://apis.google.com/js/api.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
